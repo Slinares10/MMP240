@@ -1,3 +1,108 @@
+body{
+    font-family:""
+    line-height: 1.2em;
+}
+
+#wrapper{
+    max-width:1200px;
+    margin:0 auto; /*first value is for the top/bottom,second value is left/right*/
+}
+
 header{
-    background-image:urli("images")
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0, rgba(0,0,0,1) 300px, rgba(255,255,255,0) 600px),
+    url("images/bridgertonn.png") right top no-repeat,
+    black;   
+    padding:3em;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+
+.lead{
+    color:darkgoldenrod;
+    width:300px;
+}
+
+
+h1 img{
+    max-width:100%;
+}
+
+header button{
+    background-color: #DE9F42;
+    background-image: url(images/play_arrow.png);
+    background-repeat:no-repeat;
+    background-position: left;
+    border:none;
+    color:white;
+    padding: 10px;
+    padding-left:25px;
+    border-radius:5px;
+    text-transform: uppercase;
+}
+
+nav{
+    background-color:#d49d04;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+
+nav li{
+    display:inline;
+    border-right:solid 1px whitesmoke;
+    padding:0 1.5em;
+}
+
+nav li:last-child{
+    border:none;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #f2cb05;
+    text-decoration: underline;
+}
+
+.col{
+    width:48%;
+
+}
+
+.col-left{
+    float: left;
+}
+
+.col-right{
+    float: right;
+}
+
+footer{
+    clear:both;
+}
+
+h2{
+    font-size:1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.HD{
+    border:solid 1px black;
+    padding: 0 3px;
+    font-size:smaller;
+}
+
+main{
+    margin-bottom: 3em;
+    overflow:auto;
 }
