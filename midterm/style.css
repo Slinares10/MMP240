@@ -1,5 +1,7 @@
 body{
-    font-family:""
+    font-family:"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">"
     line-height:1.2em;
 }
 
@@ -142,3 +144,31 @@ footer{
     width:100%;
 }
 
+ .episodes-card{
+    border: solid 1px #ccc;
+    padding:0.5em;
+    width:20%
+    flex: 1 1 auto;
+    margin:1em;
+ }
+ 
+ 
+ .responsive-img{
+    width:100%;
+ }
+ 
+ 
+ @media (max-width:480px){
+    .episodes{
+        padding:0.5em;
+        flex-direction: column;
+    }
+ 
+ 
+    .episodes-card{
+        width:90%;
+        margin:0;
+        margin-bottom: 1em;
+    }
+ }
+ 
