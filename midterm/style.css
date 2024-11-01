@@ -1,6 +1,6 @@
 body{
     font-family:""
-    line-height: 1.2em;
+    line-height:1.2em;
 }
 
 #wrapper{
@@ -107,6 +107,23 @@ main{
     overflow:auto;
 }
 
+.col{
+    width:48%;
+}
+
+.col-left{
+    float:left;
+}
+
+.col-right{
+    float: right;
+}
+
+footer{
+    clear: both;
+}
+
+
 /* Episode Page*/
 
 .episode-card{
@@ -118,9 +135,10 @@ main{
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .responsive-img{
     width:100%;
 }
+
