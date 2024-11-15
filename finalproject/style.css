@@ -1,0 +1,67 @@
+/* CSS Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+#wrapper{
+    max-width:1200px;
+    padding:1em;
+}
+
+p,h1,h2,h3,h4{
+    margin-bottom: 1em;
+}
+
+h1,h2,h3,h4{
+    font-weight: bold;
+}
+
+.site-header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display:none;
+}
+
+.show-menu{
+    background-color: transparent;
+    border:none;
+}
+
+.search-programs{
+    min-height: 8ems;
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.hero-banner{
+    min-height: 12em;
+    background-color: rgb(102, 207, 207);
+    padding:1em;
+    margin-bottom: 1em;
+}
+
+.events-item img{
+    width:100%;
+}
+
+@media (min-width:768px){
+
+    .show-menu{
+        display: none;
+    }
+    .menu{
+        display:flex;
+    }
+
+    .menu li{
+        display:inline;
+        margin-right:2em;
+    }
+    .layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1em;
+    }
+} /* closing media query */
