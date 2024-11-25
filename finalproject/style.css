@@ -48,20 +48,53 @@ h1,h2,h3,h4{
 
 @media (min-width:768px){
 
-    .show-menu{
-        display: none;
-    }
     .menu{
+        display:none;
+    }
+
+    #topMenu{
+        display:flex;
+        border:none;
+        position:static;
+    }
+
+    #topMenu ul{
         display:flex;
     }
 
-    .menu li{
-        display:inline;
-        margin-right:2em;
+    #topMenu li{
+        margin-right:1em;
     }
-    .layout{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-column-gap: 1em;
+
+    .programNav ul{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .programNav ul li{
+        width:32%
+        postition:relative;
+    }
+
+    .programNav ul li:hover{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .programNav .dropdown{
+        display:none;
+    }
+
+    .dropdown{
+        position: absolute;
+        width:100%;
+    }
+
+    .programNav .dropdown li{
+        width:100%;
     }
 } /* closing media query */
+
+.progamNav li{
+    display:inline-block;
+}
