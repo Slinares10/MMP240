@@ -113,6 +113,7 @@ h1,h2,h3,h4{
 
     .programNav .dropdown{
         display:none;
+        position: absolute;
     }
 
     .dropdown{
@@ -122,10 +123,53 @@ h1,h2,h3,h4{
     }
 
     .programNav .dropdown li{
-        display:none;
-        position:absolute;
         width:100%;
     }
 } /* closing media query */
+
+/*digital-design html*/
+
+.card img{
+    width:100%;
+}
+
+.card h2,.card h3,.card p{
+    text-decoration: wavy;
+    color: cadetblue;
+}
+
+.card h3{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.card h2{
+    font-size:1.4em;
+    font-weight: bold;
+}
+
+.programCards a{
+    text-decoration: none;
+    display: block;
+}
+
+.programCards a:hover{
+    background-color: blanchedalmond;
+}
+
+.cardBody{
+    padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+/*for Screens 768px and up*/
+
 
 
