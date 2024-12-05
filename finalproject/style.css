@@ -18,10 +18,6 @@ h1,h2,h3,h4{
     justify-content: space-between;
 }
 
-.menu{
-    display:none;
-}
-
 .show-menu{
     background-color: transparent;
     border:none;
@@ -125,12 +121,38 @@ h1,h2,h3,h4{
     .programNav .dropdown li{
         width:100%;
     }
+
+    .programCards{
+        display:grid;
+        grid-template-columns: repeat(auto-fill,285px);
+        grid-gap:20px;
+    }
+
+    .menu{
+        display:none;
+    }
 } /* closing media query */
 
-/*digital-design html*/
+/*category pages*/
+
+.programCards a{
+    text-decoration:none;
+    display:block;
+    border:solid 1px cornflowerblue;
+    border-radius: 10px;
+    transition-property: box-shadow, transform;
+    transition-duration: 0.5s;
+}
+
+.programCards a:hover{
+    background-color:rgb(124, 182, 184);
+    box-shadow: (5px,5px,5px rgb(78, 123, 207));
+    transform:scale(1.1);
+}
 
 .card img{
     width:100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .card h2,.card h3,.card p{
