@@ -9,8 +9,16 @@ p,h1,h2,h3,h4{
     margin-bottom: 1em;
 }
 
+h1{
+    min-height:1em;
+    margin-bottom:1em;
+    padding:1em;
+    border:none; 
+    background-color: lightblue; 
+}
+
 h1,h2,h3,h4{
-    font-weight: bold;
+    font-weight:bold;
 }
 
 .site-header{
@@ -27,7 +35,7 @@ h1,h2,h3,h4{
     min-height: 8ems;
     border:solid 1px #ccc;
     border-radius: 10px;
-    padding: 1em;
+    padding:1em;
     margin-bottom: 1em;
 }
 
@@ -77,6 +85,8 @@ h1,h2,h3,h4{
 
 .dropdown{
     display: none;
+    background-color: aliceblue
+    border:solid cornflowerblue 1px;
 }
 
 .programNav .dropdown li{
