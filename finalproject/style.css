@@ -7,6 +7,7 @@
 
 p,h1,h2,h3,h4{
     margin-bottom: 1em;
+    justify-content: space-between;
 }
 
 h1{
@@ -15,6 +16,7 @@ h1{
     padding:1em;
     border:none; 
     background-color: lightblue; 
+    justify-content: space-between;
 }
 
 h1,h2,h3,h4{
@@ -29,6 +31,12 @@ h1,h2,h3,h4{
 .show-menu{
     background-color: transparent;
     border:none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
 }
 
 .search-programs{
@@ -126,11 +134,12 @@ h2,h4{
 @media (min-width:768px){
 
     .menu{
-        display:none;
+        display:flex;
+        position: absolute right top;
     }
 
     #topMenu{
-        display:flex;
+        display:none;
         border:none;
         position:static;
     }
